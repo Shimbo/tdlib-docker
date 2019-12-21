@@ -5,7 +5,7 @@ docker pull c1rcles/tdlib.alpine
 ```
 
 
-then you can extend your alpine image with tdlib:
+then you can extend your alpine Dockerfile with tdlib:
 ``` Dockerfile
 ...
 COPY --from=c1rcles/tdlib.alpine /usr/local/lib /usr/local/lib
